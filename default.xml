@@ -47,7 +47,7 @@
   <project path="build" name="android_build" groups="pdk" remote="bl" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="rr"/>
+  <project path="android" name="platform_manifest" remote="bl"/>
   <project path="art" name="android_art" groups="pdk" remote="bl"/>
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
