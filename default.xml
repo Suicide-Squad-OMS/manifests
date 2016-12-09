@@ -7,6 +7,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  
+  <remote name="bucket" revision="master" 
+	  fetch="https://bitbucket.org" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -21,10 +24,14 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
+	
+  <remote  name="n-oms"
+	   fetch="https://github.com/Suicide-Squad-N"
+	   revision="nougat-oms" />
 
   <!-- AOSP Projects -->
 
-    <project path="build" name="Suicide-Squad-N/android_build" remote="github" revision="nougat-oms" >
+    <project path="build" name="android_build" remote="github" revision="n-oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -501,6 +508,17 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  
+   <!-- BEGIN TOOLCHAINS -->
+  <!-- SABERMOD ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4-sm" name="xanaxdroid/arm-linux-androideabi-5.4" remote="bucket" revision="sabermod" />
+
+  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bucket" revision="sabermod" />
+
+ <!-- END TOOLCHAINS -->	
 	
   <include name="snippets/rr-n.xml" />
   <include name="snippets/cm.xml" />
