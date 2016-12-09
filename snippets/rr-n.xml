@@ -18,4 +18,5 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="n-oms" />
   <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="n-oms" />
   <project path="frameworks/native" name="frameworks_native" remote="n-oms" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n-oms" />
 </manifest>
