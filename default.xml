@@ -28,10 +28,14 @@
   <remote  name="n-oms"
 	   fetch="https://github.com/Suicide-Squad-N"
 	   revision="nougat-oms" />
+	
+  <remote  name="N-OMS"
+	   fetch="https://github.com/Suicide-Squad-OMS"
+	   revision="nougat-oms" />
 
   <!-- AOSP Projects -->
 
-    <project path="build" name="android_build" remote="n-oms" >
+    <project path="build" name="android_build" remote="N-OMS" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
