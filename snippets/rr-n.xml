@@ -13,7 +13,7 @@
   <project path="external/DUtils" name="external_DUtils" remote="rr"/>
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="n-oms"/>
-  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="N-OMS" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="N-OMS" />
   <project path="frameworks/av" name="frameworks_av" remote="n-oms" />
   <project path="frameworks/base" name="android_frameworks_base" remote="N-OMS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="N-OMS" />
