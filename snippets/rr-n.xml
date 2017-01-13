@@ -19,7 +19,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="n-oms" />
   <project path="frameworks/base" name="android_frameworks_base" remote="N-OMS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="N-OMS" />
-  <project path="frameworks/native" name="frameworks_native" remote="N-OMS" />
+  <project path="frameworks/native" name="frameworks_native" remote="n-oms" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n-oms" />
   <project path="external/skia" name="external_skia" remote="rr" />
   <project path="art" name="art" remote="rr" />
