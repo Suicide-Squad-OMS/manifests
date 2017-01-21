@@ -7,6 +7,8 @@ Resurrection OS Nougat Source 2016
 
 [Join the Resurrection Remix Team](http://forum.resurrectionremix.com/index.php?topic=2037.new#new)
 
+[Crowdin for translations](https://crowdin.com/project/resurrectionremix/)
+
 Getting Started
 ---------------
 To get started with building from Resurrection Remix sources, you'll need to get
