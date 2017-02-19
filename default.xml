@@ -28,6 +28,10 @@
 	   fetch="https://github.com/Suicide-Squad-OMS"
 	   revision="nougat-oms" />
 	
+  <remote  name="N"
+	   fetch="https://github.com/XMS-Test"
+	   revision="nougat" />
+	
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
