@@ -16,8 +16,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r9" />
 
-  <remote  name="rr"    ResurrectionOTA \
-    ResurrectionStats \
+  <remote  name="rr"   
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 	
