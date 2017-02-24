@@ -4,7 +4,7 @@
   <project path="vendor/cm" name="android_vendor" remote="N-OMS" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="N-OMS" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="N-OMS" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="rr" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="n-oms" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
@@ -14,12 +14,12 @@
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="rr" />
   <project path="external/DUtils" name="external_DUtils" remote="rr"/>
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
-  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="n-oms"/>
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="rr"/>
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
-  <project path="frameworks/av" name="frameworks_av" remote="n-oms" />
+  <project path="frameworks/av" name="frameworks_av" remote="rr" />
   <project path="frameworks/base" name="android_frameworks_base" remote="N-OMS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="N-OMS" />
-  <project path="frameworks/native" name="frameworks_native" remote="n-oms" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n-oms" />
   <project path="external/skia" name="external_skia" remote="rr" />
   <project path="art" name="art" remote="rr" />
@@ -28,6 +28,5 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
   <!-- OmniRom additions -->
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
-
 
 </manifest>
