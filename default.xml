@@ -11,10 +11,10 @@
   <remote name="bucket" revision="master" 
 	  fetch="https://bitbucket.org" />
 
-   <remote name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r25" />
+           revision="refs/tags/android-7.1.2_r2" />
 
   <remote  name="rr"   
 	   fetch="https://github.com/ResurrectionRemix"
