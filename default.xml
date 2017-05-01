@@ -7,38 +7,36 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-  
-  <remote name="bucket" revision="master" 
-	  fetch="https://bitbucket.org" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r2" />
 
-  <remote  name="rr"   
-	   fetch="https://github.com/ResurrectionRemix"
-	   revision="nougat" />
-	
-
-  <remote  name="N"
-	   fetch="https://github.com/Resurrrected"
-	   revision="nougat" />
-	
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
-           sync-j="16" />	
+           sync-j="16" />
 
+  <remote  name="rr"
+	   fetch="https://github.com/ResurrectionRemix"
+	   revision="nougat" />
+  <remote  name="N"
+	   fetch="https://github.com/Resurrrected"
+	   revision="nougat" />
+
+  <remote  name="bucket" revision="master" 
+	   fetch="https://bitbucket.org" />
+		
  <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="rr" >
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  <linkfile src="root.bp" dest="Android.bp" />
+  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
