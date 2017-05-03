@@ -26,7 +26,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n-oms" />
   <project path="external/skia" name="external_skia" remote="rr" />
-  <project path="art" name="art" remote="rr" />
+  <project path="art" name="art" remote="N-OMS" />
   <project path="system/core" name="system_core" remote="N-OMS" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
