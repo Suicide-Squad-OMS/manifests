@@ -6,8 +6,8 @@
   <project path="art" name="art" remote="bj" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
   
-  <project path="vendor/vendor_OTA" name="Resurrrected/vendor_OTA" remote="github" />
-  <project path="packages/apps/ResurrectionOTA" name="Resurrrected/apps_OTA" remote="github" />
+  <project path="vendor/vendor_OTA" name="Resurrrected/vendor_OTA" remote="github"  revision="cm-14.1"/>
+  <project path="packages/apps/ResurrectionOTA" name="Resurrrected/apps_OTA" remote="github"  revision="cm-14.1"/>
   
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rr" />
