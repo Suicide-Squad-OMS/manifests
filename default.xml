@@ -24,6 +24,10 @@
   <remote  name="N"
 	   fetch="https://github.com/Resurrrected"
 	   revision="nougat" />
+	
+  <remote  name="bj"
+           fetch="https://github.com/Suicide-Squad-OMS"
+	   revision="nougat-oms" />
 
   <remote  name="bucket" revision="master" 
 	   fetch="https://bitbucket.org" />
