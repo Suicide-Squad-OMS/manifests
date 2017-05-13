@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="crdroid" fetch=".." review="review.lineageos.org" revision="refs/heads/7.1" />
+  
   <project path="vendor/cm" name="vendor" remote="N" />
   <!--project path="art" name="art" remote="N" /-->
-  <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
+  <project path="art" name="crdroidandroid/android_art" remote="github" revision="7.1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
   
   <project path="vendor/vendor_OTA" name="Resurrrected/vendor_OTA" remote="github"  revision="cm-14.1"/>
@@ -14,7 +14,7 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="rr" />
-  <!--project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" /-->
+  <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
@@ -27,7 +27,7 @@
   <project path="external/skia" name="external_skia" remote="rr" />
   <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <!--project path="system/core" name="system_core" remote="rr" /-->
-  <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <project path="system/core" name="crdroidandroid/android_system_core" remote="github" revision="7.1" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
