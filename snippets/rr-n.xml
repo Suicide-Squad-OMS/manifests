@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="crdroid" fetch=".." sync-c="true" sync-j="4" review="review.lineageos.org" revision="refs/heads/7.1" />
+  <remote  name="crdroid" fetch=".." review="review.lineageos.org" revision="refs/heads/7.1" />
   <project path="vendor/cm" name="vendor" remote="N" />
   <!--project path="art" name="art" remote="N" /-->
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
