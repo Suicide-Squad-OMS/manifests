@@ -11,7 +11,7 @@ Resurrection OS Nougat Source 2016
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/Resurrrected/mani.git -b nougat
+      $  repo init -u https://github.com/Resurected/mani.git -b nougat
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~20GB]
