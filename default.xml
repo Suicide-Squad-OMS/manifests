@@ -21,8 +21,9 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
+	
   <remote  name="N"
-	   fetch="https://github.com/Resurrrected"
+	   fetch="https://github.com/Resurected"
 	   revision="nougat" />
 	
   <remote  name="bj"
