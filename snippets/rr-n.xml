@@ -5,8 +5,8 @@
   <project path="vendor/cm" name="vendor" remote="N" />
   <project path="art" name="art" remote="N" />
  
-  <project path="vendor/vendor_OTA" name="Resurrrected/vendor_OTA" remote="github"  revision="cm-14.1"/>
-  <project path="packages/apps/ResurrectionOTA" name="Resurrrected/apps_OTA" remote="github"  revision="cm-14.1"/>
+  <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
+  <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
   
   <!-- custom hals -->
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
