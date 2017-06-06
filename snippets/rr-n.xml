@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="frameworks/base" name="base" remote="N" />  
+   <project path="frameworks/base" name="base" remote="N" />  
   <project path="packages/apps/Settings" name="settings" remote="N" />
   <project path="vendor/cm" name="vendor" remote="N" />
-  <project path="system/core" name="system_core" remote="N" />
-  <project path="art" name="art" remote="N" />
- 
+  <project path="system/core" name="system_core" remote="rr" />
+  <project path="art" name="scotthartbti/android_art" remote="github"  revision="bs7.1"/>
+  <project path="bionic" name="scotthartbti/android_bionic" remote="github"  revision="bs7.1"/>
+
   <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
   <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
   
@@ -13,7 +14,6 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <!--project path="bionic" name="crdroidandroid/android_bionic" revision="7.1"/--> 
   <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" />
