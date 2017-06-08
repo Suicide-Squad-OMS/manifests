@@ -7,18 +7,9 @@
   <project path="system/core" name="system_core" remote="rr" />
   <project path="art" name="scotthartbti/android_art" remote="github"  revision="bs7.1"/>
   <project path="bionic" name="scotthartbti/android_bionic" remote="github"  revision="bs7.1"/>
-
+  
   <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
   <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
-  
-  <!-- custom hals -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" />
-  <!-- custom hals --> 
   
   <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" remote="github" revision="oneplus3/cm-14.1-sultan" />
   <!--project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" /-->
@@ -45,10 +36,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
-
   <!-- interfacer -->
   <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="rr" />
   
-
-
 </manifest>
