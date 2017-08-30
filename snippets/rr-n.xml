@@ -6,7 +6,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="N" />
   <project path="system/core" name="system_core" remote="rr" />
   <project path="art" name="Resurected/android_art" remote="github" revision="cm-14.1"/> 
-  <project path="bionic" name="scotthartbti/android_bionic" remote="github"  revision="bs7.1"/>
+  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   
   <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
   <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
