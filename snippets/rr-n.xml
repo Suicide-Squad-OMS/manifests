@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  
+  <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
+  <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
+  
+  <!--project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" remote="github" revision="oneplus3/cm-14.1-sultan" /-->
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
+  
   <project path="android" name="manifest" remote="N-OMS" />
   <project path="vendor/cm" name="android_vendor" remote="N-OMS" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="N-OMS" />
-  <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rr" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
@@ -13,8 +20,15 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="N-OMS" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
+  <project path="external/DUtils" name="external_DUtils" remote="rr"/>
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="rr"/>
+  <project path="external/skia" name="external_skia" remote="rr" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="N-OMS" />
   <project path="external/DUtils" name="external_DUtils" remote="rr"/>
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
@@ -33,8 +47,8 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
-
   <!-- interfacer -->
   <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="rr" />
+ 
 
 </manifest>
