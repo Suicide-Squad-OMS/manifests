@@ -23,7 +23,7 @@
 	   revision="nougat" />
 	
   <remote  name="n-oms"
-	   fetch="https://github.com/Suicide-Squad-N"
+	   fetch="https://github.com/Suicide-Squad-Rom"
 	   revision="nougat-oms" />
 	
   <remote  name="N-OMS"
