@@ -3,8 +3,6 @@
    <project path="vendor/vendor_OTA" name="Resurected/vendor_OTA" remote="github"  revision="cm-14.1"/>
   <project path="packages/apps/ResurrectionOTA" name="Resurected/apps_OTA" remote="github"  revision="cm-14.1"/>
   
-  <!--project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" remote="github" revision="oneplus3/cm-14.1-sultan" /-->
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   
   <project path="android" name="manifest" remote="N-OMS" />
   <project path="vendor/cm" name="android_vendor" remote="N-OMS" />
