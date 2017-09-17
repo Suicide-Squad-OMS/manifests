@@ -26,14 +26,14 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="N-OMS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="N-OMS" />
   <project path="external/skia" name="external_skia" remote="rr" />
-  <project path="art" name="art" remote="rr" />
+  <project path="art" name="RR_art" remote="nougat-oms" />
   <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="system/core" name="system_core" remote="N-OMS" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="n-oms" />
-  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="n-oms" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="nougat-oms" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="nougat-oms" />
   
   <!-- OmniRom additions -->
   <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
