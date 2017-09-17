@@ -18,7 +18,7 @@
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 	
-  <remote  name="n-oms"
+  <remote  name="nougat-oms"
 	   fetch="https://github.com/Suicide-Squad-Rom"
 	   revision="nougat-oms" />
 	
