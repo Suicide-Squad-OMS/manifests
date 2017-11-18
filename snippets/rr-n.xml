@@ -14,14 +14,14 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="N-OMS" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="N-OMS" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="N-OMS" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="external/DUtils" name="external_DUtils" remote="rr"/>
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="N-OMS" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="N-OMS"/>
   <project path="frameworks/av" name="frameworks_av" remote="N-OMS" />
   <project path="frameworks/base" name="android_frameworks_base" remote="N-OMS" />
@@ -36,8 +36,8 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="N-OMS" />
   
   <!-- OmniRom additions -->
-  <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="rr" />
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="rr" />
+  <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="N-OMS" />
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="N-OMS" />
 
   <!-- interfacer -->
   <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="rr" />
