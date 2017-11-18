@@ -10,7 +10,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="N-OMS" />
   <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
   <project path="packages/apps/Dialer-1" name="android_packages_apps_Dialer" remote="N-OMS" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="rr" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="N-OMS" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="rr" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="N-OMS" />
