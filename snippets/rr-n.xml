@@ -28,7 +28,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="N-OMS" />
   <project path="external/skia" name="external_skia" remote="rr" />
   <project path="art" name="RR_art" remote="nougat-oms" />
-  <project path="frameworks/native" name="frameworks_native" remote="rr" />
+  <project path="frameworks/native" name="frameworks_native" remote="N-OMS" />
   <project path="system/core" name="system_core" remote="N-OMS" />
   <project path="external/google" name="android_external_google" remote="rr" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
